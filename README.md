@@ -1,2 +1,25 @@
 # layoffs-data-analysis-sql
-全球裁员数据分析项目(a sql analysis project for layoffs data)
+
+## 项目简介
+
+本项目基于sql 对全球裁员数据进行完整的数据分析，包含数据清洗统计分析与趋势探索。
+
+## 数据来源
+
+- 数据集：`layoffs.csv`
+- 字段: 公司、行业、裁员人数、比例、时间、国家、融资阶段等。
+
+## 分析流程
+
+1. 数据清洗:处理空值、重复值与格式问题
+2. 多维度统计: 按行业、国家、时间统计裁员规模
+3. 趋势探索：分析裁员变化规律与关键节点
+
+## 使用方法
+
+1. 将`layoffs.csv` 导入 mysql
+2. 执行`cleaning.sql` and `analysis.sql`脚本
+3. 查看结果并解读结论
+
+
+
